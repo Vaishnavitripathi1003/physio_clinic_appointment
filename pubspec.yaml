@@ -1,0 +1,70 @@
+name: physio_clinic_appointment
+description: "A new Flutter project."
+
+# Prevent accidental publish to pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_spinkit: ^5.2.1
+  dio: ^5.7.0
+  google_fonts: ^6.2.1
+  url_launcher: ^6.0.2
+  cupertino_icons: ^1.0.8
+  flutter_launcher_icons: ^0.14.3
+  flutter_tabler_icons: ^1.0.2
+  provider: ^6.1.2
+  cool_alert: ^2.0.1
+  google_nav_bar: ^5.0.2
+  font_awesome_flutter: ^10.8.0
+  carousel_slider: ^5.0.0
+  intl: ^0.20.2
+  sqflite: ^2.4.2
+  quick_actions: ^1.0.0+2
+  introduction_screen: ^4.0.0
+  shimmer: ^3.0.0
+  flutter_webrtc: ^1.2.0
+  share_plus: ^7.0.2
+  image_picker: ^1.1.0
+  video_player: ^2.8.6
+  video_thumbnail: ^0.5.3
+
+  # Firebase for signaling
+  cloud_firestore: ^6.1.0
+  firebase_core: ^4.2.1
+    # Permissions for camera/mic
+  permission_handler: ^12.0.1
+  firebase_database: ^12.0.4
+  firebase_auth: ^6.1.2
+  # Optional Firebase packages (uncomment when ready)
+  # firebase_core: ^3.10.1
+  # firebase_auth: ^5.4.1
+  # cloud_firestore: ^5.6.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ✅ Add your app assets (images, icons, etc.)
+  assets:
+    - assets/images/
+    - assets/lottie/
+
+  # ✅ Add custom fonts (optional)
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
